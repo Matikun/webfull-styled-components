@@ -6,6 +6,8 @@ import { colors } from '../styles/colors';
 export const Nav = styled.nav`
 	background: ${colors.black};
 	height: 80px;
+	margin-top: -80px;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;

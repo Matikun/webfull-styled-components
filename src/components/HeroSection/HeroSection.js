@@ -35,7 +35,6 @@ const HeroSection = () => {
 						onMouseLeave={onHover}
 						primary="true"
 						dark="true"
-						big="true"
 					>
 						Get Started {hover ? <ArrowForward /> : <ArrowRight />}
 					</Button>
