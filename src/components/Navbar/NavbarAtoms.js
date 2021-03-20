@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 import { colors } from '../styles/colors';
 
 export const Nav = styled.nav`
-	background: ${colors.black};
+	background: ${({ scrollNav }) => (scrollNav ? colors.black : 'transparent')};
 	height: 80px;
 	margin-top: -80px;
 	display: flex;
@@ -44,6 +44,7 @@ export const NavLogo = styled(LinkR)`
 
 export const MobileIcon = styled.div`
 	display: none;
+
 	@media screen and (max-width: 768px) {
 		display: block;
 		position: absolute;
@@ -69,7 +70,7 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-	height: 80px;
+	height: 88px;
 `;
 
 export const NavLinks = styled(LinkS)`

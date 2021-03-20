@@ -6,6 +6,7 @@ import {
 	FaTwitter,
 	FaYoutube,
 } from 'react-icons/fa';
+import { toggleHome } from '../../helpers/helpers';
 import {
 	FooterContainer,
 	FooterLink,
@@ -23,7 +24,6 @@ import {
 } from './FooterAtoms';
 
 const Footer = () => {
-	const toggleHome = () => {};
 	return (
 		<FooterContainer>
 			<FooterWrap>
