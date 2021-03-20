@@ -6,6 +6,7 @@ const colors = {
 	backgroundBlack: '#0c0c0c',
 	infoBackgroundLight: '#f9f9f9',
 	infoHeadingLight: '#f7f8fa',
+	footerBackGround: '#101522',
 };
 
 export { colors };
