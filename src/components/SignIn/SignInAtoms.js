@@ -4,17 +4,18 @@ import { colors } from '../styles/colors';
 
 export const Container = styled.div`
 	min-height: 692px;
+	height: 100%;
 	position: fixed;
 	bottom: 0;
 	top: 0;
 	right: 0;
 	left: 0;
 	z-index: 0;
-	overflow: hidden;
+
 	background: linear-gradient(
 		180deg,
-		rgba(1, 147, 86, 1) 0%,
-		rgba(10, 201, 122, 1) 100%
+		rgb(10, 155, 245) 0%,
+		rgb(0, 176, 255) 100%
 	);
 `;
 
